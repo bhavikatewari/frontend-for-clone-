@@ -11,7 +11,7 @@ function App() {
 
   // Videos fetch
   useEffect(() => {
-    fetch(`${API}/api/videos`)
+    
       .then(res => res.json())
       .then(data => {
         setVideos(data)

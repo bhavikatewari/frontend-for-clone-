@@ -7,7 +7,7 @@ function App() {
   const [showForm, setShowForm] = useState(false)
   const [form, setForm] = useState({title: '', videoUrl: '', thumbnailUrl: '', channel: ''})
 
-  const API = import.meta.env.VITE_API_URL // Backend connect
+  const API = "https://youtube-clone-api-e22t.onrender.com"
 
   // Videos fetch
   useEffect(() => {

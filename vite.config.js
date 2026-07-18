@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/frontend-for-clone-/'  // <-- ye line sabse important hai
+    // <-- ye line sabse important hai
 })
